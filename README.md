@@ -1,2 +1,5 @@
-# selfwebsite
-for the lab7
+### Group Project Website
+
+## Name gamergamerEvent (ggevent.com)
+
+# ALISTER, DAVID, GLADE, STEPHEN
