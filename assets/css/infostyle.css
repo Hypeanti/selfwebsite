@@ -4,6 +4,18 @@ body {
     color: rgb(0, 0, 0);
     background-color: rgb(154, 252, 186);
 }
+.container {
+  display: flex;
+  background-color: dodgerBlue;
+  justify-content: center;
+    }
+.container {
+    display: flex;
+    background-color: #0b9d23;
+    margin: 10px;
+    padding: 20px;
+    font-size: 24px;
+}
 h1 {
     font-family: 'Silkscreen', cursive;
 }
