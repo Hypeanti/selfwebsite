@@ -1,1 +1,154 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: green;
+  color: #fff;
+}
+
+header {
+
+    background: linear-gradient(to bottom, #12751d, #1e9a2d);
+    padding: 65px 225px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+
+    z-index: 1000;
+
+    font-size: 25px;
+}
+.allLeft {
+    display: flex;
+}
+.ggLogo {
+    min-height: 75px;
+    min-width: 175px;
+    max-height: 75px;
+    max-width: 175px;
+}
+.ggName {
+    min-height: 75px;
+    min-width: 200px;
+    max-height: 75px;
+    max-width: 200px;
+
+}
+
+a {
+    text-decoration:none;
+    color:white;
+}
+.navbar {
+    background: linear-gradient(to bottom, #2f7c38, #3fb14d);
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 200px;
+    z-index: 1000;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.4);
+ 
+    font-size: 20px;
+
+}
+.navlist {
+    justify-content: flex-end;
+    align-items: center;
+    display: flex;
+    margin-right: 200px;
+}
+.allRight ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 40px;
+    align-self: flex-start;
+    border-radius: 2px;
+    border: 3px solid rgb(128, 128, 127, 0.10);
+    background-color: rgb(117, 117, 109, 0.14);
+}
+
+.navlist ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 10px 60px;
+    align-self: flex-start;
+
+}
+@media(max-width:2000px) {
+
+    body {
+        zoom:0.6;
+
+    }
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 30px;
+  gap: 40px;
+  justify-content: center;
+}
+
+.contact-left, .contact-right {
+  background-color: #66cc66;
+  padding: 25px;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 400px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+.contact-left h2, .contact-right h2 {
+  margin-top: 0;
+  color: #fff;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+input, textarea {
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  color: #000;
+}
+
+button {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #006600;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #004d00;
+}
+
+.note {
+  font-size: 0.9em;
+  color: #fff;
+}
+
+footer {
+  background-color: #222;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 40px;
+}
 
