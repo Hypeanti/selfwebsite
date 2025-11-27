@@ -5,7 +5,7 @@ body {
     background-color: rgb(154, 252, 186);
 }
 html {
-    scroll-behaviour: smooth;
+    scroll-behavior: smooth;
 }
 .container {
   display: flex;
