@@ -1,6 +1,7 @@
 body {
     margin: 0;
-    background: #b4f3b1;
+    background: #D6EFD8;
+    background: linear-gradient(180deg,rgba(214, 239, 216, 1) 0%, rgba(114, 216, 117, 1) 100%);
     font-family: 'M PLUS 2', sans-serif;
 }
 
@@ -35,6 +36,60 @@ nav a {
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.3);
 }
 
+.search-container {
+    width: 100%;
+    margin: 0;
+    background: #80AF81;
+    padding: 20px 30px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+}
+
+.search-bar {
+    flex: 1;
+    padding: 12px 20px;
+    border: none;
+    background: #80AF81;
+    font-family: 'M PLUS 2', sans-serif;
+    font-size: 16px;
+    box-shadow: none;
+    color: white;
+}
+
+.search-bar::placeholder {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.search-bar:focus {
+    outline: 2px solid #0d700f;
+}
+
+.settings-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.lang-btn,
+.region-btn {
+    background: #0d700f;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    cursor: pointer;
+    font-weight: 600;
+    font-family: 'M PLUS 2', sans-serif;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.3);
+    transition: 0.3s;
+}
+
+.lang-btn:hover,
+.region-btn:hover {
+    background: #41b845;
+}
+
 
 .slider-container {
     width: 80%;
@@ -43,15 +98,18 @@ nav a {
     padding: 20px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
     position: relative;
+    overflow: hidden;
 }
 
 .slides {
     display: flex;
     transition: 0.6s;
+    width: 100%;
 }
 
 .slide {
     min-width: 100%;
+    flex-shrink: 0;
     display: flex;
     gap: 20px;
 }
@@ -78,19 +136,36 @@ nav a {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    font-size: 24px;
-    background: none;
+    font-size: 32px;
+    background: #0d700f;
+    color: white;
     border: none;
     cursor: pointer;
-    color: #0d700f;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.3);
+    transition: 0.3s;
+    z-index: 10;
+}
+
+.slider-btn:hover {
+    background: #41b845;
 }
 
 #prev {
-    left: 10px;
+    left: -70px;
+}
+
+#prev::before {
+    content: '‹';
 }
 
 #next {
-    right: 10px;
+    right: -70px;
 }
 
 .dots {
