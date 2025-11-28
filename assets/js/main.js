@@ -7,6 +7,7 @@ const total = 5;
 for (let i = 0; i < total; i++) {
     let d = document.createElement('span');
     d.className = 'dot' + (i === 0 ? ' active' : '');
+    d.onclick = () => { index = i; update(); };
     dots.appendChild(d);
 }
 

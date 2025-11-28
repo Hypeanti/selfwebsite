@@ -4,73 +4,97 @@
 
 <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Register</title>
     <link href="assets/css/regstyle.css" rel="stylesheet" />
 </head>
+
 <body>
-      <header>
-      <div class="allLeft">
-          <img src="assets/images/gglogo.png" alt="Text" class="ggLogo" />
-          <img src="assets/images/ggName1.png" alt="Text" class="ggName" />
-          
-      </div>
-      <div class="auth"><button>SIGN IN <img src="assets/images/gglogin.png" alt="Text" style="max-height:25px;max-width:25px;padding-right:10px;" /></button><a href="#" class="signupp">Sign Up</a></div>
-      <div class="allRight">
-          
-          <ul>
-              <li><img src="assets/images/ggcompass.png" alt="Text" style="max-height:25px;max-width:25px;padding-right:10px;" /><a href="index.html">DISCOVER</a></li>
-              <li><img src="assets/images/ggcalendar.png" alt="Text" style="max-height: 25px; max-width: 25px; padding-right: 10px;" /><a href="register.html">REGISTER</a></li>
-              <li><img src="assets/images/gggroup.png" alt="Text" style="max-height: 25px; max-width: 25px; padding-right: 10px;" /><a href="information.html">EVENTS INFO</a></li>
-              <li><img src="assets/images/ggcom.png" alt="Text" style="max-height: 25px; max-width: 25px; padding-right: 10px;" /><a href="contact.html">CONTACT</a></li>
-          </ul>
-      </div>
-      
-  </header>
+    <header>
+        <div class="allLeft">
+            <img src="assets/images/gglogo.png" alt="Text" class="ggLogo" />
+            <img src="assets/images/ggName1.png" alt="Text" class="ggName" />
 
-  <div class="search-container">
-    <input type="text" class="search-bar" placeholder="Search the website" /><button class="search-btn"><img src="assets/images/ggsearch.png"></button>
-    <div class="settings-buttons">
-        <button class="lang-btn">EN</button>
-        <button class="region-btn">IE</button>
+        </div>
+        <div class="auth"><button>SIGN IN <img src="assets/images/gglogin.png" alt="Text"
+                    style="max-height:25px;max-width:25px;padding-right:10px;" /></button><a href="#"
+                class="signupp">Sign Up</a></div>
+        <div class="allRight">
+
+            <ul>
+                <li><img src="assets/images/ggcompass.png" alt="Text"
+                        style="max-height:25px;max-width:25px;padding-right:10px;" /><a href="index.html">DISCOVER</a>
+                </li>
+                <li><img src="assets/images/ggcalendar.png" alt="Text"
+                        style="max-height: 25px; max-width: 25px; padding-right: 10px;" /><a
+                        href="register.html">REGISTER</a></li>
+                <li><img src="assets/images/gggroup.png" alt="Text"
+                        style="max-height: 25px; max-width: 25px; padding-right: 10px;" /><a
+                        href="information.html">EVENTS INFO</a></li>
+                <li><img src="assets/images/ggcom.png" alt="Text"
+                        style="max-height: 25px; max-width: 25px; padding-right: 10px;" /><a
+                        href="contact.html">CONTACT</a></li>
+            </ul>
+        </div>
+
+    </header>
+
+    <div class="search-container">
+        <input type="text" class="search-bar" placeholder="Search the website" /><button class="search-btn"><img
+                src="assets/images/ggsearch.png"></button>
+        <audio controls autoplay muted class="audioplayer">
+            <source src="assets/stephens music lessgoo.mp3" type="audio/mp3">
+            Your browser does not support the audio element.
+        </audio>
+        <div class="settings-buttons">
+            <button class="lang-btn">EN</button>
+            <button class="region-btn">IE</button>
+        </div>
     </div>
-  </div>
 
 
-  <div class="navbar">
-      <div class="searchbar">
+    <div class="navbar">
+        <div class="searchbar">
 
-        
 
-      </div>
-      <div class="navlist">
-         
-          <ul>
-              <li><a href="#eventOne">Tournament</a></li>
-              <li><a href="#eventTwo">Indie-GameCon</a></li>
-              <li><a href="#eventThree">Cosplay-Con</a></li>
-              <li><a href="#eventFour">BoardGame</a></li>
-          </ul>
-      </div>
 
-  </div>
+        </div>
+        <div class="navlist">
+
+            <ul>
+                <li><a href="#eventOne">Tournament</a></li>
+                <li><a href="#eventTwo">Indie-GameCon</a></li>
+                <li><a href="#eventThree">Cosplay-Con</a></li>
+                <li><a href="#eventFour">BoardGame</a></li>
+            </ul>
+        </div>
+
+    </div>
 
 
     <div class="pageBorder">
         <div class="pageCore">
 
-            <div class="topBanner" style=" background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.95)),url(assets/images/tholder2.jpg);">
+            <div class="topBanner"
+                style=" background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.95)),url(assets/images/tholder2.jpg);">
                 <h1>Register</h1>
-                <p class="bannerText">Before you register, learn abit about the events that will be happening this month!.</p>
-                <button type="button" class="skipButton" onclick="document.getElementById('register').scrollIntoView({ behaviour: 'smooth' })"> Skip to Registration</button>
+                <p class="bannerText">Before you register, learn abit about the events that will be happening this
+                    month!.</p>
+                <button type="button" class="skipButton"
+                    onclick="document.getElementById('register').scrollIntoView({ behaviour: 'smooth' })"> Skip to
+                    Registration</button>
 
             </div>
             <div class="gameBackground">
                 <div class="gameInfo1">
                     <div class="gameText" id="eventOne">
                         <h2>Gaming Tournament</h2>
-                        <p>This Gaming Tournament will feature a multitude of games where you will see your favorite esports players battle it out in League of Legends, TeamFortress 2, Fortnite and Overwatch. At the venue food and drinks will be able to be bought at the food stalls found in the venue.</p>
-                        <p ><a href="information.html"style="text-decoration:underline; color: black;">Learn More!</a></p>
+                        <p>This Gaming Tournament will feature a multitude of games where you will see your favorite
+                            esports players battle it out in League of Legends, TeamFortress 2, Fortnite and Overwatch.
+                            At the venue food and drinks will be able to be bought at the food stalls found in the
+                            venue.</p>
+                        <p><a href="information.html" style="text-decoration:underline; color: black;">Learn More!</a>
+                        </p>
                     </div>
 
                     <img src="assets/images/crowdimg1.jpg" alt="Alternate Text" class="gameImage" />
@@ -80,16 +104,19 @@
             </div>
 
 
-      
+
 
 
             <div class="gameInfo1">
                 <img src="assets/images/convention1.jpg" alt="Alternate Text" class="gameImage" />
                 <div class="gameText" id="eventTwo">
                     <h2>Indie Convention</h2>
-                    <p>This is a convention which gives up and coming game developers a chance to show off their personal projects and have people playtest their games at various pc booths at the convention. This gives indie devlopers an opportunity to test their games on a live audience and use that feedback to make their game even better.</p>
-                    
-                    <p ><a href="information.html"style="text-decoration:underline; color: black;">Learn More!</a></p>
+                    <p>This is a convention which gives up and coming game developers a chance to show off their
+                        personal projects and have people playtest their games at various pc booths at the convention.
+                        This gives indie devlopers an opportunity to test their games on a live audience and use that
+                        feedback to make their game even better.</p>
+
+                    <p><a href="information.html" style="text-decoration:underline; color: black;">Learn More!</a></p>
                 </div>
 
 
@@ -102,8 +129,13 @@
                 <div class="gameInfo1">
                     <div class="gameText" id="eventThree">
                         <h2>Cosplay-Con</h2>
-                        <p>Cosplay your favorite chaaracters and join other fellow cosplay enthusiasts at Cosplay-Con. There will be booths where you will be able to purchase posters and other things from very talented and passionate artists within the cosplay community. There will even be a competition held at 3 which will give special prises to whoever has the most aunthentic and stylish costume!</p>
-                        <p ><a href="information.html"style="text-decoration:underline; color: black;">Learn More!</a></p>
+                        <p>Cosplay your favorite chaaracters and join other fellow cosplay enthusiasts at Cosplay-Con.
+                            There will be booths where you will be able to purchase posters and other things from very
+                            talented and passionate artists within the cosplay community. There will even be a
+                            competition held at 3 which will give special prises to whoever has the most aunthentic and
+                            stylish costume!</p>
+                        <p><a href="information.html" style="text-decoration:underline; color: black;">Learn More!</a>
+                        </p>
                     </div>
 
                     <img src="assets/images/cosplayimg1.jpg" alt="Alternate Text" class="gameImage" />
@@ -113,26 +145,30 @@
             </div>
 
 
-      
+
             <section id="register"></section>
 
             <div class="gameInfo1">
                 <img src="assets/images/bgame1.jpg" alt="Alternate Text" class="gameImage" />
                 <div class="gameText" id="eventFour">
                     <h2>Board-Game Night</h2>
-                    <p>Join us at board game night where all are welcome! Whether you are a board game fanatic or new to board games, this is an event that you can enjoy as there are a wide variety of board-games to chose from. In the main event we will be hosting multiple Dungeons and Dragon campaigns. We will also be giving an intoducory DnD session for new players so they wont feel lost!</p>
-                    <p ><a href="information.html"style="text-decoration:underline; color: black;">Learn More!</a></p>
+                    <p>Join us at board game night where all are welcome! Whether you are a board game fanatic or new to
+                        board games, this is an event that you can enjoy as there are a wide variety of board-games to
+                        chose from. In the main event we will be hosting multiple Dungeons and Dragon campaigns. We will
+                        also be giving an intoducory DnD session for new players so they wont feel lost!</p>
+                    <p><a href="information.html" style="text-decoration:underline; color: black;">Learn More!</a></p>
                 </div>
 
 
 
 
             </div>
-            
 
 
 
-            <div class="formOuter" style=" background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.95)),url(assets/images/regback5.jpg);">
+
+            <div class="formOuter"
+                style=" background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.95)),url(assets/images/regback5.jpg);">
                 <div class="formInner">
                     <form action="#" method="post">
                         <h3 class="formTitle">Register form</h3>
@@ -148,56 +184,65 @@
                             <input type="text" id="email" name="email" placeholder="Email"><br><br>
                         </div>
                         <div class="seperateEvent">
-                            <div class="formImage"style="background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.95)),url(assets/images/crowdimg1.jpg);">
-                                
+                            <div class="formImage"
+                                style="background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.95)),url(assets/images/crowdimg1.jpg);">
+
                                 <h3 class="formTitle">Gaming Tournament</h3>
                                 <h3 class="chooseHead">Event Date: 8-12-25</h3>
                                 <h3 class="chooseHead">Event Time: 18:00</h3>
                                 <h3 class="chooseHead">Location: Limerick Gaming Center</h3>
-                                <div class="attendDiv"><label><input type="checkbox" name="attend4" />  Attend</label></div>
+                                <div class="attendDiv"><label><input type="checkbox" name="attend4" /> Attend</label>
+                                </div>
                             </div>
-                            <div class="formImage"style="background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.95)),url(assets/images/convention1.jpg);">
-                                
+                            <div class="formImage"
+                                style="background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.95)),url(assets/images/convention1.jpg);">
+
                                 <h3 class="formTitle">Convention1</h3>
                                 <h3 class="chooseHead">Event Date: 8-12-25</h3>
                                 <h3 class="chooseHead">Event Time: 18:00</h3>
                                 <h3 class="chooseHead">Location: Limerick Gaming Center</h3>
-                                <div class="attendDiv"><label><input type="checkbox" name="attend4" />  Attend</label></div>
+                                <div class="attendDiv"><label><input type="checkbox" name="attend4" /> Attend</label>
+                                </div>
 
                             </div>
 
                         </div>
-                       
+
                         <div class="seperateEvent">
-                            <div class="formImage"style="background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.95)),url(assets/images/cosplayimg1.jpg);">
-                                
+                            <div class="formImage"
+                                style="background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.95)),url(assets/images/cosplayimg1.jpg);">
+
                                 <h3 class="formTitle">Cosplay-Con</h3>
                                 <h3 class="chooseHead">Event Date: 8-12-25</h3>
                                 <h3 class="chooseHead">Event Time: 18:00</h3>
                                 <h3 class="chooseHead">Location: Limerick Gaming Center</h3>
-                                <div class="attendDiv"><label><input type="checkbox" name="attend4" />  Attend</label></div>
+                                <div class="attendDiv"><label><input type="checkbox" name="attend4" /> Attend</label>
+                                </div>
                             </div>
-                            <div class="formImage" style="background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.95)),url(assets/images/bgame1.jpg);">
-                                
+                            <div class="formImage"
+                                style="background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.95)),url(assets/images/bgame1.jpg);">
+
                                 <h3 class="formTitle">Board-Game Night</h3>
                                 <h3 class="chooseHead">Event Date: 8-12-25</h3>
                                 <h3 class="chooseHead">Event Time: 18:00</h3>
                                 <h3 class="chooseHead">Location: Limerick Gaming Center</h3>
-                                <div class="attendDiv"><label><input type="checkbox" name="attend4" />  Attend</label></div> 
+                                <div class="attendDiv"><label><input type="checkbox" name="attend4" /> Attend</label>
+                                </div>
 
                             </div>
 
                         </div>
-                       
-                        <input type="submit"value="submit" class="submit2" />
+
+                        <input type="submit" value="submit" class="submit2" />
 
                     </form>
-                  
+
                 </div>
             </div>
         </div>
     </div>
-   
- 
+
+
 </body>
+
 </html>
