@@ -32,12 +32,12 @@ nav a {
 
 
 
-/* new header css bellow 1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111*/
+/* new header css bellow 111111111111111111*/
 header {
     
-    background: linear-gradient(to bottom, #12751d, #1e9a2d);
-    padding: 65px 225px;
-    display: flex;
+    background: #347531;
+    padding: 5px 30px;
+    display: flex;  
     align-items: center;
     justify-content: space-between;
     position: sticky;
@@ -69,13 +69,11 @@ a {
     color:white;
 }
 .navbar {
-    background: linear-gradient(to bottom, #2f7c38, #3fb14d);
-    
+    background: #80AF81;
     display: flex;
     align-items: center;
     justify-content: space-between;
     position: sticky;
-    top: 200px;
     z-index: 1000;
     box-shadow: 0 3px 8px rgba(0, 0, 0, 0.4);
     
@@ -95,11 +93,12 @@ a {
 .allRight ul li {
     list-style: none;
     display: inline-block;
-    margin: 0 40px;
+    margin: 0 20px;
     align-self: flex-start;
-    border-radius: 2px;
-    border: 3px solid rgb(128, 128, 127, 0.10);
-    background-color: rgb(117, 117, 109, 0.14);
+    font-size: 20px;
+    font-weight: medium;
+    text-transform: uppercase;
+    
 }
 
 .navlist ul li {
@@ -128,7 +127,7 @@ a {
     width: 100%;
     margin: 0;
     background: #80AF81;
-    padding: 20px 30px;
+    padding: 10px 30px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
     display: flex;
     justify-content: space-between;
@@ -137,18 +136,20 @@ a {
 }
 
 .search-bar {
-    flex: 1;
-    padding: 12px 20px;
-    border: none;
-    background: #80AF81;
+    width: 491px;
+    height: 39px;
+    box-sizing: border-box;
+    padding: 8px 15px;
+    border: 2px solid #D7D7D7;
+    background: #D9D9D9;
     font-family: 'M PLUS 2', sans-serif;
     font-size: 16px;
     box-shadow: none;
-    color: white;
+    color: black;
 }
 
 .search-bar::placeholder {
-    color: rgba(255, 255, 255, 0.7);
+    color: rgba(0, 0, 0, 0.7);
 }
 
 .search-bar:focus {
@@ -162,10 +163,13 @@ a {
 
 .lang-btn,
 .region-btn {
-    background: #0d700f;
-    color: white;
-    border: none;
-    padding: 12px 20px;
+    width: 107px;
+    height: 39px;
+    box-sizing: border-box;
+    background: #D9D9D9;
+    color: black;
+    border: 2px solid #D7D7D7;
+    padding: 8px 15px;
     cursor: pointer;
     font-weight: 600;
     font-family: 'M PLUS 2', sans-serif;
@@ -175,7 +179,7 @@ a {
 
 .lang-btn:hover,
 .region-btn:hover {
-    background: #41b845;
+    background: #A9A9A9;
 }
 
 
