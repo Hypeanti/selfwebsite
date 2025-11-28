@@ -26,6 +26,8 @@ nav a {
     text-decoration: none;
     font-weight: 600;
 }*/
+
+/* new header css bellow 1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111*/
 header {
     
     background: linear-gradient(to bottom, #12751d, #1e9a2d);
@@ -63,7 +65,7 @@ a {
 }
 .navbar {
     background: linear-gradient(to bottom, #2f7c38, #3fb14d);
-    /*padding: 65px 225px;*/
+    
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -102,11 +104,12 @@ a {
     align-self: flex-start;
 
 }
+/* new header css above1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111*/
 
 
 
 
-/* new header css above*/
+
 .auth button {
     background: #41b845;
     border: none;
