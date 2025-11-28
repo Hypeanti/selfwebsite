@@ -114,16 +114,26 @@ a {
 
 
 .auth button {
-    background: #41b845;
+    background: #009E22;
+    color: #ffffff;
+    text-transform: capitalize;
+    font-size: 22px;
     border: none;
     padding: 8px 16px;
     cursor: pointer;
     font-weight: 600;
-    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.3);
+}
+
+.auth a{
+    font-weight: normal;
+    font-size: 20px;
+    color: #dfdfdf;
+    padding: 12px;
+    text-decoration: underline;
 }
 
 .search-container {
-    width: 100%;
+    
     margin: 0;
     background: #80AF81;
     padding: 10px 30px;
