@@ -75,7 +75,6 @@ a {
     justify-content: space-between;
     position: sticky;
     z-index: 1000;
-    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.4);
     
     font-size: 20px;
     
